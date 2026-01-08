@@ -1,0 +1,7 @@
+Detection Rule: SSH Brute Force
+
+IF failed_ssh_logins > 10
+WITHIN 1 minute
+FROM the same IP address
+THEN generate alert:
+SSH Brute Force Attack Detected
