@@ -1,0 +1,13 @@
+Log Source:
+/var/log/auth.log
+
+Detection Method:
+grep Failed password
+
+Findings:
+- Repeated failed SSH login attempts
+- Same source IP used repeatedly
+- High frequency of authentication failures
+
+Conclusion:
+The log pattern indicates an SSH brute-force attack.
