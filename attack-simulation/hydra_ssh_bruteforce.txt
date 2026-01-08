@@ -1,0 +1,13 @@
+Attack Name: SSH Brute Force
+
+Tool Used: Hydra
+
+Command:
+hydra -l root -P /usr/share/wordlists/rockyou.txt ssh://127.0.0.1
+
+Objective:
+To simulate an automated SSH brute-force attack for SOC detection testing.
+
+Result:
+Multiple failed SSH authentication attempts were generated
+within a short time frame.
